@@ -1,0 +1,26 @@
+VALIANTUS - COMO CRIAR O EXECUTAVEL WINDOWS
+
+IMPORTANTE: o .exe precisa ser criado em um computador Windows com JDK 21.
+Este pacote contem os scripts e o codigo, mas NAO contem um .exe pronto.
+
+OPCAO 1 - SE O MAVEN ESTIVER INSTALADO NO WINDOWS:
+1. Extraia este ZIP.
+2. Execute CRIAR_EXECUTAVEL_WINDOWS.bat.
+3. Aguarde o download das dependencias e a compilacao.
+4. Abra distribuicao\Valiantus\Valiantus.exe.
+
+OPCAO 2 - PELO INTELLIJ IDEA:
+1. Abra a pasta ValiantusSistema no IntelliJ.
+2. Configure JDK 21 e aguarde a importacao Maven.
+3. Na aba Maven (lado direito), abra Lifecycle e execute 'package'.
+4. Confira que target\valiantus-sistema-1.0.0.jar foi criado.
+5. Execute GERAR_APLICATIVO_APOS_MAVEN.bat.
+6. Abra distribuicao\Valiantus\Valiantus.exe.
+
+PARA LEVAR A OUTRO COMPUTADOR:
+Copie TODA a pasta distribuicao\Valiantus, nao somente o .exe.
+Ela inclui o ambiente Java necessario. O banco de dados fica separado,
+na pasta .valiantus-academico do usuario Windows.
+
+LOGIN DEMONSTRATIVO: admin / Admin@123
+Nao utilize dados reais de clientes neste projeto academico.
